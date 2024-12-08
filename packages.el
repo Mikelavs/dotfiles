@@ -5,12 +5,8 @@
 ;; on the command line, then restart Emacs for the changes to take effect -- or
 ;; use 'M-x doom/reload'.
 
-(package! org-roam
-  :recipe (:host github :repo "org-roam" :branch "main"))
-
-
-
-
-
-
-(package! org-roam-ui)
+(package! denote)
+(package! org-modern)
+;;(package! mu4e)
+(package! consult-denote)
+(package! org-super-agenda)
